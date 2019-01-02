@@ -53,7 +53,8 @@ session_start();
                 </form>
                 </form>
 
-      <!--       <?php
+      <!-- w wersji na gorze dziala, w wersji na dole nie dziala      
+<?php
     if (isset($_SESSION['userId'])) {
       echo '  <form action="includes/logout.inc.php" method="post">
                     <button class="btn btn-default" type="submit" name="logout-submit">Log Out</button> ';
